@@ -1,5 +1,35 @@
-*{
-    
-	font-family: 'Montserrat', sans-serif;
-    $f: 'Raleway', sans-serif;
+html {
+  scroll-behavior: smooth;
+}
+
+$f: "Raleway", sans-serif;
+$hc: #47c9e5; //hover color
+$h1c: #3f3f3f;
+$pc: #8d8d8d;
+img {
+  max-width: 100%;
+}
+a {
+  color: black;
+  &:hover {
+    text-decoration: none;
+  }
+}
+h1 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 28px;
+  color: $h1c;
+  &:hover {
+    cursor: pointer;
+    color: $hc;
+  }
+}
+
+p {
+  font-family: $f;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: $pc;
 }

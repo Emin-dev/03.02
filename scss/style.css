@@ -15,6 +15,9 @@ time, mark, audio, video {
   padding: 0;
   border: 0;
   font-size: 100%;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  list-style: none;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -53,7 +56,43 @@ table {
           user-select: none;
 }
 
-* {
-  font-family: 'Montserrat', sans-serif;
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 28px;
+  color: #3f3f3f;
+}
+
+h1:hover {
+  cursor: pointer;
+  color: #47c9e5;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #8d8d8d;
+}
+
+#header {
+  background: url(/imgs/Blog_title_image.jpg);
 }
 /*# sourceMappingURL=style.css.map */
