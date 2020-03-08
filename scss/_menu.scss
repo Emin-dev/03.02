@@ -1,0 +1,23 @@
+#menu {
+  padding-top: 50px;
+  a {
+    transition: 0.1s;
+  
+    color: white;
+    border: 1px solid #e6e6e6;
+    border-radius: 100px;
+    padding: 6px 15px;
+    color: $pc;
+    &:hover {
+      color: white;
+      background-color: #47c9e5;
+    }
+  }
+  li{
+    margin: 20px  10px;
+  }
+  .active {
+    color: white;
+    background-color: #47c9e5;
+  }
+}
